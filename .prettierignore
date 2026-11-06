@@ -1,0 +1,8 @@
+.next
+node_modules
+.data
+package-lock.json
+playwright-report
+test-results
+SKILLS.md
+public/mediapipe
