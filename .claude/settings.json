@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf \"%s\" \"{\\\"hookSpecificOutput\\\":{\\\"hookEventName\\\":\\\"SessionStart\\\",\\\"additionalContext\\\":\\\"FaceStudio project rule: read SKILLS.md (repo root) in full before planning or changing code. Follow its Mandatory iteration protocol, and after every iteration update SKILLS.md (append to section G and rewrite section H).\\\"}}\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
